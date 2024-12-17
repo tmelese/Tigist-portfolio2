@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title  -->
+    <title>Tigist's Portfolio</title>
+
+    <!-- bootstrap.css -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon-16x16.png" />
+    <!-- custom css -->
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header  -->
+
+    <nav class="nav" id="nav">
+      <div class="logo">
+        <h1>Portfolio</h1>
+      </div>
+      <ul class="content" id="menuList">
+        <li><a href=" #skill">Skill</a></li>
+        <li><a href="#About-me">About me</a></li>
+        <li><a href="#My-work">my work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-icon">
+        <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+      </div>
+    </nav>
+
+    <div class="banner-container container- fluid" id="banner-container">
+      <img src="img/bun (2).jpg" alt="" />
+      <div class="banner-text container">
+        <h1>Tigist Melese</h1>
+        <h2>Front-end developer</h2>
+      </div>
+    </div>
+
+    <!-- Skill section  -->
+    <div class="skill text-center row" id="skill">
+      <div class="col-md-3 pb-3"><img src="img/html1.png" alt="" /></div>
+      <div class="col-md-3 pb-3"><img src="img/css1.png" alt="" /></div>
+      <div class="col-md-3 pb-3"><img src="img/jav1.png" alt="" /></div>
+      <div class="col-md-3 pb-3"><img src="img/boot1.png" alt="" /></div>
+      <div class="col-md-3 pb-3"><img src="img/jav1.png" alt="" /></div>
+      <div class="col-md-3 pb-3"><img src="img/photo1.png" alt="" /></div>
+      <div class="col-md-3 pb-3"><img src="img/skt1.png" alt="" /></div>
+      <div class="col-md-3 pb-3"><img src="img/react1.png" alt="" /></div>
+      <div class="back">
+        <a href="#nav" class="back-to-top">
+          <i class="fa-sharp fa-solid fa-x"></i
+        ></a>
+      </div>
+    </div>
+    <div class="about-section" id="About-me">
+      <h1 class="me">About Me</h1>
+      <p>
+        I'm Tigist Melese, a beginner coder on a journey to master the world of
+        programming. While I'm just starting out, my dedication and eagerness to
+        learn fuel my passion for coding every day. I'm committed to expanding
+        my knowledge, tackling new challenges, and continuously improving my
+        skills.
+        <br /><br />
+        This portfolio showcases my progress, projects, and the steps I'm taking
+        to grow as a developer. I believe that every line of code is a step
+        closer to achieving my goals, and I'm excited to share my journey with
+        you. You can get more details about me in my
+        <a href="https://github.com/tmelese/Resume/blob/main/frontendportifolyo2.pdf">resume</a>. Let's build
+        something amazing together! 
+      </p>
+      <div class="back pb-3">
+        <a href="#nav" class="back-to-top">
+          <i class="fa-sharp fa-solid fa-x"></i
+        ></a>
+      </div>
+    </div>
+    <div class="container text-center" id="My-work">
+      <h3 class="title">My Works</h3>
+      <div class="row justify-content-center">
+        <div class="col-md-4 mb-3">
+          <a href="https://github.com/tmelese/clone/blob/main/index.html"
+            ><img
+              src="img/apple22.png"
+              width="400px"
+              alt="Apple page"
+              class="img-fluid"
+          /></a>
+           <a
+            href="https://tmelese.github.io/clone/
+          "
+            class="fw-bold fs-4 text-decoration-none text-dark"
+          >
+            Template</a
+          >
+        </div>
+        <div class="col-md-4 mb-3">
+          <a href="https://github.com/tmelese/Promo-email/blob/main/index.html
+        "
+            ><img
+              src="img/promo22.png"
+              width="400px"
+              alt="Promotional"
+              class="img-fluid"
+          /></a>
+          <a
+            href="https://tmelese.github.io/Promo-email/"
+            class="fw-bold fs-4 text-decoration-none text-dark"
+          >
+            Template</a
+          >
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-4 mb-3">
+          <a href="https://github.com/tmelese/news-letters-5/blob/main/index.html
+         "
+            ><img src="img/news1.png" alt="News" class="img-fluid"
+          /></a>
+          <a
+            href="  https://tmelese.github.io/news-letters-5/"
+            class="fw-bold fs-4 text-decoration-none text-dark"
+          >
+            Template</a
+          >
+        </div>
+        <div class="col-md-4 mb-3">
+          <a href="https://github.com/tmelese/transactional-email/blob/main/index.html
+         "
+            ><img src="img/Design 22.png" alt="Transactional" class="img-fluid"
+          /></a>
+          <a
+            href="  https://tmelese.github.io/transactional-email/"
+            class="fw-bold fs-4 text-decoration-none text-dark"
+          >
+            Template</a
+          >
+        </div>
+      </div>
+      <div class="back">
+        <a href="#nav" class="back-to-top">
+          <i class="fa-sharp fa-solid fa-x"></i>
+        </a>
+      </div>
+    </div>
+    <!-- footer -->
+
+    <section id="contact" class="p-4 text-center mx-auto w-50">
+      <h2>Contact Me</h2>
+      <form
+        action="https://formspree.io/f/turael22@yahoo.com"
+        method="POST"
+        class="container w-auto"
+      >
+        <div class="mb-3">
+          <label for="name" class="form-label">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="form-control"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="form-control"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            class="form-control"
+            rows="5"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+      <div class="back">
+        <a href="#nav" class="back-to-top">
+          <i class="fa-sharp fa-solid fa-x"></i>
+        </a>
+      </div>
+    </section>
+
+    <script
+      src="https://kit.fontawesome.com/e1d80c68ca.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
